@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>io.github.hanshs474</groupId>
+  <artifactId>freeimagetovideo</artifactId>
+  <version>0.1.0</version>
+  <packaging>jar</packaging>
+
+  <name>Free Image to Video Java SDK</name>
+  <description>Free image to video AI with no daily cap: start with no sign-up, keep going on a free account. Every video comes with sound and no watermark. This is the official Java SDK for Free Image to Video. Zero dependencies, Java 11+.</description>
+  <url>https://freeimagetovideo.ai/?utm_source=maven&amp;utm_medium=package</url>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://opensource.org/licenses/MIT</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Free Image to Video</name>
+      <email>support@freeimagetovideo.ai</email>
+      <organization>Free Image to Video</organization>
+      <organizationUrl>https://freeimagetovideo.ai/?utm_source=maven&amp;utm_medium=package</organizationUrl>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:https://github.com/hanshs474/fitv-java.git</connection>
+    <developerConnection>scm:git:https://github.com/hanshs474/fitv-java.git</developerConnection>
+    <url>https://github.com/hanshs474/fitv-java</url>
+  </scm>
+
+  <properties>
+    <maven.compiler.release>11</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+</project>
